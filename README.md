@@ -42,6 +42,9 @@ digest1 = pHash.image_digest( 'file.1.jpg', 1.0, 1.0, 180 )
 digest2 = pHash.image_digest( 'file.2.jpg', 1.0, 1.0, 180 )
 print 'Cross-correelation: %d' % ( pHash.crosscorr( digest1, digest2 ) )
 ````
+Also is possible to run in Terminal:
+
+python pyphash.py architecture1_rotd.bmp architecture1_rotd1.bmp
 
 Todo
 ----
